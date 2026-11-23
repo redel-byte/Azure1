@@ -8,3 +8,4 @@ wheels/
 
 # Virtual environments
 .venv
+azure_adf_ingestion_step1.zip
