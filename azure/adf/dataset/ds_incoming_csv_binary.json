@@ -1,0 +1,18 @@
+{
+	"name": "ds_incoming_csv_binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_energy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dataset-electric.csv",
+				"fileSystem": "incoming"
+			}
+		}
+	}
+}
